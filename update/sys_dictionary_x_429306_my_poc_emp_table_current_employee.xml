@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="empid" table="x_429306_my_poc_emp_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="current_employee" table="x_429306_my_poc_emp_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>empID</column_label>
+        <column_label>Current Employee</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,12 +27,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>empid</element>
+        <element>current_employee</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_429306_my_poc_emp_table</name>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-22 09:25:31</sys_created_on>
-        <sys_id>3b6bbd78db22001000827b38689619bc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>empID</sys_name>
+        <sys_created_on>2020-01-22 10:33:39</sys_created_on>
+        <sys_id>afeb39f8db22001000827b3868961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Current Employee</sys_name>
         <sys_package display_value="my-poc" source="x_429306_my_poc">422ce9b81b2600101560a9b4bd4bcbf5</sys_package>
         <sys_policy/>
         <sys_scope display_value="my-poc">422ce9b81b2600101560a9b4bd4bcbf5</sys_scope>
-        <sys_update_name>sys_dictionary_x_429306_my_poc_emp_table_empid</sys_update_name>
+        <sys_update_name>sys_dictionary_x_429306_my_poc_emp_table_current_employee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-22 10:31:54</sys_updated_on>
+        <sys_updated_on>2020-01-22 10:33:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

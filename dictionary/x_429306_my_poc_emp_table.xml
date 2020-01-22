@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="emp_table" max_length="40" name="x_429306_my_poc_emp_table" type="collection">
+        <element label="empID" max_length="40" name="empid" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="employeeName" max_length="40" name="employeename" type="string"/>
+    </element>
+</database>
